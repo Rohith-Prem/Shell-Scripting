@@ -1,0 +1,3 @@
+#!/bin/bash
+sort -r -k school.dat | cat >sorted.dat
+cat sorted.dat

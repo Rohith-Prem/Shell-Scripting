@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ ! $# -eq 1 ]
+then
+	echo "invalid no of args"
+else
+	echo "No of files starting with $1"
+	ls | grep -c "^$1"
+fi

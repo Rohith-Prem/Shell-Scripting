@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Username = $USER"
+echo "current shell= $SHELL"
+echo "Home Directory = $HOME"
+echo "The details Are"
+uname -a
+echo "Current path= $PATH"
+echo "Current Directory is"
+pwd
+echo "No of users logged in="
+who -q
+

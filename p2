@@ -1,0 +1,11 @@
+#!/bin/bash
+$a
+$b
+echo "Enter first number"
+read a
+echo "Enter second number"
+read b
+echo "Sum = `expr $a + $b`"
+echo "Diff = `expr $a - $b`"
+echo "Prod = `expr $a \* $b`"
+echo "Quotient= `expr $a / $b`"

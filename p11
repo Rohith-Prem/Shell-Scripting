@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "enter filename"
+read fname
+echo "enter output filename"
+read output
+sed 'y/aeiou/AEIOU/' $fname | cat> $output

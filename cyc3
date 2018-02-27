@@ -1,0 +1,20 @@
+#!/bin/bash
+echo "MENU"
+k=1
+while test $k -eq 1
+do
+	echo "1)ADD 2)SUBTRACT 3)MULTIPY 4)DIVIDE 5)MODULUS"
+	echo "Enter option"
+	read n
+	echo "Enter numbers"
+	read a
+	read b
+	case $n in
+		1)echo "Sum = `expr $a + $b`";;
+		2)echo "Diff = `expr $a - $b`";;
+		3)echo "Product = `expr $a \* $b`";;
+		4)echo "Quotient = `expr $a / $b`";;
+		5)echo "Remainder= `expr $a % $b`";;
+	esac
+	read k
+done

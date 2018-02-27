@@ -1,0 +1,8 @@
+#!/bin/bash
+read sp
+echo "name is $sp"
+echo "reverse is"
+echo $sp | rev
+echo "the length is ${#sp}"
+
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+uname -ovr
+cat /etc/shells
+lscpu
+lsblk -f
+#sudo hdparm -I/dev/sda
+vmstat -s
+uname -a
+

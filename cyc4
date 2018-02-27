@@ -1,0 +1,17 @@
+#!/bin/bash
+if test $# -ne 2
+then
+	echo "Invalid Arguments"
+	exit 1
+fi
+if [ ! -f "$1" ]
+then
+	echo "File does not exist"
+	exit 1
+fi
+if grep -Fxq "$2" "$1"
+then
+	echo "Username already exists"
+else
+	echo $2 | cat >> "$1"
+fi

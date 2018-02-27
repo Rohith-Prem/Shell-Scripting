@@ -1,0 +1,9 @@
+#!/bin/bash
+$m
+echo "Enter your name"
+read m
+echo "Name = $m"
+echo "current directory `pwd`"
+echo "Date: `date`"
+
+
